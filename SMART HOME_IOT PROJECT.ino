@@ -42,9 +42,9 @@
   int flamesensvalue=0; // initialize flamesensor reading 
   bool unlockDoor = false;
 
-  char auth[] = "hPWVCBr5B3jgPszUwYygxvbMsyZsxqEd"; // Line 49 - 51: Login WI-FI
-  char ssid[] = "gamesense";
-  char pass[] = "12345678";
+  char auth[] = "XXXX"; // Line 49 - 51: Login WI-FI
+  char ssid[] = "XXXX";
+  char pass[] = "XXXX";
 
   LiquidCrystal_I2C lcd(0x27, 16, 2); // SDA A4, SCL A5, GDN GND, VCC 5V
   ESP8266 wifi(&Serial1); // Declare pin 18,19 arduino mega
